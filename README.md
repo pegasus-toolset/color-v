@@ -8,34 +8,6 @@
 v install color
 ```-->
 
-## Dependencies
-
-### Linux
-
-Manjaro / Arch (X11):
-
-```bash
-sudo pacman -S glfw-x11
-```
-
-Manjaro / Arch (Wayland):
-
-```bash
-sudo pacman -S glfw-wayland
-```
-
-Debian / Ubuntu:
-
-```bash
-sudo apt-get install glfw3
-```
-
-### MacOS
-
-```bash
-brew install glfw
-```
-
 ## Contributing
 
 Feel free to open pull requests!
