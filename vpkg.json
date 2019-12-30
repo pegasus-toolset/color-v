@@ -1,0 +1,8 @@
+{
+  "name": "color",
+  "version": "0.1.0",
+  "author": ["Norman Rauschen <offacid@gmail.com>"],
+  "repo": "https://github.com/pegasus-toolset/color",
+  "sources": ["https://vpkg-project.github.io/registry/"],
+  "dependencies": []
+}
