@@ -2,11 +2,12 @@ language: minimal
 
 install:
   - git clone https://github.com/vlang/v.git
-  - cd v
+  - mv v vlang
+  - cd vlang
   - make
-  - mv v ../v
+  - mv v ..
   - cd ..
-  - rm -r v
+  - rm -r vlang
 
 script:
   - v -stats test .
