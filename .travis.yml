@@ -6,7 +6,7 @@ install:
   - cd v
   - make
   - export PATH=$PWD/:$PATH
-  - cd color
+  - cd ../color
 
 script:
   - v -stats test .
