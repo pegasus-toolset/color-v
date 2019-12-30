@@ -1,11 +1,12 @@
 language: minimal
 
 install:
+  - cd ..
   - git clone https://github.com/vlang/v.git
   - cd v
   - make
   - export PATH=$PWD/:$PATH
-  - cd ..
+  - cd ../color
 
 script:
   - v -stats test .
