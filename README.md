@@ -2,11 +2,11 @@
 
 <p align="center">Functions that make it easy to work with colors.</p>
 
-## Installation
+<!--## Installation
 
 ```bash
 v install color
-```
+```-->
 
 ## Dependencies
 
