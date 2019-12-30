@@ -1,0 +1,10 @@
+language: minimal
+
+install:
+  - git clone https://github.com/vlang/v.git
+  - cd v
+  - make
+  - export PATH=$PWD/:$PATH
+
+script:
+  - v -stats test .
