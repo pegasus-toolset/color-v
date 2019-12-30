@@ -5,6 +5,7 @@ install:
   - cd v
   - make
   - export PATH=$PWD/:$PATH
+  - cd ..
 
 script:
   - v -stats test .
