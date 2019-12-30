@@ -7,7 +7,7 @@ install:
   - make
   - mv v ..
   - cd ..
-  - rm -r vlang
+  - rm -rf vlang
 
 script:
   - v -stats test .
