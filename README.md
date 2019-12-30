@@ -2,6 +2,11 @@
 
 <p align="center">Functions that make it easy to work with colors.</p>
 
+Supports:
+
+- [X11 color names](https://en.wikipedia.org/wiki/X11_color_names)
+- RGB to HSL conversion
+
 <!--## Installation
 
 ```bash
