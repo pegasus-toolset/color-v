@@ -10,4 +10,4 @@ install:
   - rm -rf vlang
 
 script:
-  - v -stats test .
+  - ./v -stats test .
